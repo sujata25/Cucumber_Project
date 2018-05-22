@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15341" started-at="2018-05-22T04:19:20Z" finished-at="2018-05-22T04:19:35Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="Test01Basic.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qainfotech.Tatoc.Cucumber_Tatoc.Test01Basic@5c5a1b69]" name="feature" class="com.qainfotech.Tatoc.Cucumber_Tatoc.Test01Basic"/>
+        <method signature="Test02Advanced.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qainfotech.Tatoc.Cucumber_Tatoc.Test02Advanced@3cef309d]" name="feature" class="com.qainfotech.Tatoc.Cucumber_Tatoc.Test02Advanced"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="15341" started-at="2018-05-22T04:19:20Z" finished-at="2018-05-22T04:19:35Z">
+      <class name="com.qainfotech.Tatoc.Cucumber_Tatoc.Test01Basic">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qainfotech.Tatoc.Cucumber_Tatoc.Test01Basic@5c5a1b69]" name="setUpClass" is-config="true" duration-ms="429" started-at="2018-05-22T09:49:20Z" finished-at="2018-05-22T09:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qainfotech.Tatoc.Cucumber_Tatoc.Test01Basic@5c5a1b69]" name="feature" duration-ms="9349" started-at="2018-05-22T09:49:20Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-22T09:49:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Basic Action]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qainfotech.Tatoc.Cucumber_Tatoc.Test01Basic@5c5a1b69]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2018-05-22T09:49:29Z" finished-at="2018-05-22T09:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qainfotech.Tatoc.Cucumber_Tatoc.Test01Basic -->
+      <class name="com.qainfotech.Tatoc.Cucumber_Tatoc.Test02Advanced">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qainfotech.Tatoc.Cucumber_Tatoc.Test02Advanced@3cef309d]" name="setUpClass" is-config="true" duration-ms="13" started-at="2018-05-22T09:49:29Z" finished-at="2018-05-22T09:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qainfotech.Tatoc.Cucumber_Tatoc.Test02Advanced@3cef309d]" name="feature" duration-ms="5400" started-at="2018-05-22T09:49:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-22T09:49:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Advanced Action]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qainfotech.Tatoc.Cucumber_Tatoc.Test02Advanced@3cef309d]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2018-05-22T09:49:35Z" finished-at="2018-05-22T09:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qainfotech.Tatoc.Cucumber_Tatoc.Test02Advanced -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
